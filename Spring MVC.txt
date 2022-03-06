@@ -1,0 +1,27 @@
+HTTP request -> dispatcher servlet -> location-> URL 
+
+
+Controller -> /book/list -> GET type method()
+
+-> service layer (business logic)
+
+-> DAO layer (Repository)
+
+DAOInterface
+DAOImpl
+
+-> DB request
+
+Controller->
+
+model (key, value)
+
+return "listofbooks"
+
+/WEB-INF/views/listofbooks.jsp
+
+
+
+
+
+
